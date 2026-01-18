@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     z-index: 1;
 }
-.flag__birthday{
+.flag__sorry{
     display: flex;
     justify-content: space-between;
     transform: translateY(-200px);
@@ -46,10 +46,10 @@ body {
         transform: translateY(-10px);
     }
 }
-.flag__birthday .flag__left{
+.flag__sorry .flag__left{
     transform: rotate(-10deg) translate(-20px,30px);
 }
-.flag__birthday .flag__right{
+.flag__sorry .flag__right{
     transform: rotate(10deg) translate(20px,30px) scaleX(-1);
 }
 .content{
@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .sorry, .title .medam{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -141,10 +141,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.title .happy{
+.title .sorry{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .sorry span, .title .medam span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .medam{
     color: var(--color-text-pink);
 }
 
@@ -631,11 +631,11 @@ body {
 
 @media screen and (max-width: 658px)   {
 
-    .flag__birthday .flag__left {
+    .flag__sorry .flag__left {
         transform: rotate(-10deg) translate(-119px,3px);
     }
 
-    .flag__birthday .flag__right {
+    .flag__sorry .flag__right {
         transform: rotate(10deg) translate(-106px,39px) scaleX(-1);
     }
 
