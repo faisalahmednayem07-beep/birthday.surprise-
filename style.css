@@ -294,16 +294,7 @@ body {
         transform: rotate(360deg);
     }
 }
-.text__cricle span{
-    top: 0%;
-    left: 50%;
-    position: absolute;
-    color: var(--color-black);
-    transform: rotate(calc(var(--i) * 24deg));
-    transform-origin: 0 45px;
-    font-family: "Sriracha", cursive;
-    text-transform: uppercase;
-    font-size: 0.7rem;
+.
 }
 .fa-heart{
     color: var(--color-heart);
