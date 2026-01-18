@@ -288,18 +288,7 @@ body {
         transform: scale(1);
     }
 
-}
-.text__cricle{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color-text-pink);
-    border-radius: 50%;
-    border: 5px solid var(--color-black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: rotateCricle 5s linear infinite;
-}
+
 @keyframes rotateCricle{
     to{
         transform: rotate(360deg);
